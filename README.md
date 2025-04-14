@@ -17,4 +17,4 @@ composer global require laravel/installer
 
 ## PhpStorm設定
 Settings > PHP > Composer の path to composer.json で laravelの composer.json を指定。    
-これをしないと、autoloadを正しくしてくれないpsr-4の設定を読み込まないので。
+これをしないと、autoloadを正しく読んでコード補完をしてくれない。
